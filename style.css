@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+body{
+    background:  hsl(0, 0%, 8%);
+    font-family: 'Inter', sans-serif;
+    
+    
+}
+.card{
+    width: 350px;
+    height: 520px;
+    text-align: center;
+    background:  hsl(0, 0%, 12%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 12px;
+
+}
+.card img{
+    text-align: center;
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.card h1{
+    font-size: 26px;
+     color: white;
+}
+.card h2{
+    font-size: 14px;
+    margin-top: -12px;
+    color: hsl(75, 94%, 57%);
+}
+.card h3{
+    font-size: 12px;
+    font-weight: lighter;
+    color:  hsl(0, 0%, 80%);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.buttons button{
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    margin-bottom: 15px;
+    width: 250px;
+    padding: 10px;
+    border-radius: 12px;
+    border: 0;
+}
+.buttons button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color:hsl(0, 0%, 12%);
+}
+
+@media screen and (max-width: 375px) {
+}
+@media screen and (min-width: 376px) and (max-width: 1440px) {
+}
